@@ -22,9 +22,8 @@ status  ● building
 
 **current work**
 ```
-01  ai codebase assistant
-02  media downloader tools
-03  developer automation utilities
+01  Dany Downloader
+
 ```
 
 ---
