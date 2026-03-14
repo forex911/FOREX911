@@ -1,63 +1,42 @@
-```markdown
-<h2 align="center">forex911</h2>
+<div align="left">
 
-<p align="center">
-Developer • AI Explorer • Builder
-</p>
+<h2>forex911</h2>
+<sub>developer · ai explorer · builder</sub>
 
 ---
 
-### 🧠 Profile
-
+**profile**
 ```
-
-username : forex911
-focus    : artificial intelligence
-domain   : software development
-status   : building projects
-
+focus   artificial intelligence
+domain  software development
+status  ● building
 ```
 
 ---
 
-### ⚙️ Stack
+**stack**
 
+`python` `java` `c` `sql` `javascript` `git` `vscode` `ai/ml` `data science`
+
+---
+
+**current work**
 ```
-
-languages : python | java | c | sql | javascript
-tools     : git | github | vscode
-areas     : ai | machine learning | data science
-
+01  ai codebase assistant
+02  media downloader tools
+03  developer automation utilities
 ```
 
 ---
 
-### 🚀 Current Work
+**stats**
 
-```
-
-ai codebase assistant
-media downloader tools
-developer automation utilities
-
-```
+<img height="130" src="https://github-readme-stats.vercel.app/api?username=forex911&show_icons=true&hide_border=true&theme=tokyonight&hide_title=true"/>
 
 ---
 
-### 📊 Stats
+**contact**
 
-<p align="center">
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=forex911&show_icons=true&hide_border=true&theme=tokyonight"/>
-</p>
+[github.com/forex911](https://github.com/forex911) · forex911x@gmail.com
 
----
-
-### 📡 Contact
-
-```
-
-github : github.com/forex911
-email  : [forex911x@gmail.com](mailto:forex911x@gmail.com)
-
-```
-```
+</div>
