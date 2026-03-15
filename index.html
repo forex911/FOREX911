@@ -1,42 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>F9 | Developer</title>
 
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="f9.png">
 
-  <!-- Premium Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
   <style>
     /* =====================================================
-       BLACK & WHITE DESIGN SYSTEM
+       THEME VARIABLES
        ===================================================== */
     :root {
-      --black: #000000;
-      --white: #ffffff;
-      --gray-100: #f5f5f5;
-      --gray-200: #e0e0e0;
-      --gray-300: #c0c0c0;
-      --gray-400: #a0a0a0;
-      --gray-500: #808080;
-      --gray-600: #606060;
-      --gray-700: #404040;
-      --gray-800: #202020;
-      --gray-900: #101010;
-
       --font-display: 'Playfair Display', serif;
       --font-body: 'Inter', sans-serif;
-
       --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      --theme-transition: background 0.5s ease, color 0.5s ease, border-color 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    [data-theme="light"] {
+      --bg-primary: #ffffff;
+      --bg-secondary: #f5f5f5;
+      --bg-card: #ffffff;
+      --text-primary: #000000;
+      --text-secondary: #606060;
+      --text-muted: #808080;
+      --border: #e0e0e0;
+      --border-strong: #000000;
+      --loader-bg: #000000;
+      --loader-text: #ffffff;
+      --loader-bar-bg: #202020;
+      --loader-progress: #ffffff;
+      --shadow: rgba(0,0,0,0.15);
+      --shadow-heavy: rgba(0,0,0,0.2);
+      --btn-primary-bg: #000000;
+      --btn-primary-text: #ffffff;
+      --toggle-bg: #000000;
+      --toggle-text: #ffffff;
+      --toggle-icon-color: #ffffff;
+    }
+
+    [data-theme="dark"] {
+      --bg-primary: #0a0a0a;
+      --bg-secondary: #111111;
+      --bg-card: #161616;
+      --text-primary: #f0f0f0;
+      --text-secondary: #a0a0a0;
+      --text-muted: #606060;
+      --border: #2a2a2a;
+      --border-strong: #f0f0f0;
+      --loader-bg: #0a0a0a;
+      --loader-text: #f0f0f0;
+      --loader-bar-bg: #2a2a2a;
+      --loader-progress: #f0f0f0;
+      --shadow: rgba(0,0,0,0.5);
+      --shadow-heavy: rgba(0,0,0,0.6);
+      --btn-primary-bg: #f0f0f0;
+      --btn-primary-text: #0a0a0a;
+      --toggle-bg: #f0f0f0;
+      --toggle-text: #0a0a0a;
+      --toggle-icon-color: #0a0a0a;
     }
 
     /* =====================================================
@@ -55,13 +84,14 @@
 
     body {
       font-family: var(--font-body);
-      background: var(--white);
-      color: var(--black);
+      background: var(--bg-primary);
+      color: var(--text-primary);
       font-size: 16px;
       line-height: 1.6;
       overflow-x: hidden;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
+      transition: var(--theme-transition);
     }
 
     a {
@@ -78,7 +108,7 @@
       left: 0;
       width: 100%;
       height: 100vh;
-      background: var(--black);
+      background: var(--loader-bg);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -96,7 +126,7 @@
       font-family: var(--font-display);
       font-size: 4rem;
       font-weight: 700;
-      color: var(--white);
+      color: var(--loader-text);
       margin-bottom: 2rem;
       letter-spacing: -0.02em;
       animation: fadeInScale 1s ease;
@@ -105,7 +135,7 @@
     .loader-bar {
       width: 200px;
       height: 2px;
-      background: var(--gray-800);
+      background: var(--loader-bar-bg);
       position: relative;
       overflow: hidden;
     }
@@ -115,7 +145,7 @@
       top: 0;
       left: 0;
       height: 100%;
-      background: var(--white);
+      background: var(--loader-progress);
       width: 0%;
       animation: loadProgress 2s ease-out forwards;
     }
@@ -123,20 +153,14 @@
     .loader-text {
       margin-top: 1rem;
       font-size: 0.9rem;
-      color: var(--gray-500);
+      color: #808080;
       letter-spacing: 0.2em;
       text-transform: uppercase;
     }
 
     @keyframes fadeInScale {
-      0% {
-        opacity: 0;
-        transform: scale(0.9);
-      }
-      100% {
-        opacity: 1;
-        transform: scale(1);
-      }
+      0% { opacity: 0; transform: scale(0.9); }
+      100% { opacity: 1; transform: scale(1); }
     }
 
     @keyframes loadProgress {
@@ -145,7 +169,46 @@
     }
 
     /* =====================================================
-       NAVBAR - BLACK & WHITE
+       THEME TOGGLE BUTTON
+       ===================================================== */
+    .theme-toggle-nav {
+      width: 38px;
+      height: 38px;
+      background: var(--toggle-bg);
+      border: 1px solid var(--border);
+      color: var(--toggle-text);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: var(--transition), var(--theme-transition);
+      flex-shrink: 0;
+    }
+
+    .theme-toggle-nav:hover {
+      transform: rotate(20deg) scale(1.1);
+      box-shadow: 0 4px 16px var(--shadow);
+    }
+
+    .theme-toggle-nav svg {
+      width: 16px;
+      height: 16px;
+      stroke: var(--toggle-icon-color);
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex-shrink: 0;
+    }
+
+    [data-theme="light"] .svg-moon { display: block; }
+    [data-theme="light"] .svg-sun  { display: none; }
+    [data-theme="dark"]  .svg-moon { display: none; }
+    [data-theme="dark"]  .svg-sun  { display: block; }
+
+    /* =====================================================
+       NAVBAR
        ===================================================== */
     nav {
       position: fixed;
@@ -158,14 +221,14 @@
       align-items: center;
       z-index: 1000;
       background: transparent;
-      transition: var(--transition);
+      transition: var(--transition), var(--theme-transition);
     }
 
     nav.scrolled {
-      background: var(--white);
+      background: var(--bg-primary);
       padding: 1.5rem 5%;
-      border-bottom: 1px solid var(--gray-200);
-      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 2px 20px var(--shadow);
     }
 
     .logo {
@@ -173,6 +236,8 @@
       font-size: 1.5rem;
       font-weight: 700;
       letter-spacing: -0.02em;
+      color: var(--text-primary);
+      transition: var(--theme-transition);
     }
 
     .nav-links {
@@ -185,9 +250,28 @@
       font-size: 0.9rem;
       font-weight: 500;
       position: relative;
-      color: var(--gray-600);
+      color: var(--text-secondary);
       transition: color 0.3s ease;
       letter-spacing: 0.02em;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .nav-link svg {
+      width: 14px;
+      height: 14px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex-shrink: 0;
+      transition: transform 0.3s ease;
+    }
+
+    .nav-link:hover svg {
+      transform: scale(1.2);
     }
 
     .nav-link::after {
@@ -197,12 +281,12 @@
       left: 0;
       width: 0;
       height: 1px;
-      background: var(--black);
+      background: var(--text-primary);
       transition: width 0.3s ease;
     }
 
     .nav-link:hover {
-      color: var(--black);
+      color: var(--text-primary);
     }
 
     .nav-link:hover::after {
@@ -215,10 +299,11 @@
       border: none;
       font-size: 1.4rem;
       cursor: pointer;
+      color: var(--text-primary);
     }
 
     /* =====================================================
-       HERO - MINIMAL B&W
+       HERO
        ===================================================== */
     .hero {
       min-height: 100vh;
@@ -237,18 +322,19 @@
       font-size: 0.85rem;
       text-transform: uppercase;
       letter-spacing: 0.15em;
-      color: var(--gray-500);
+      color: var(--text-muted);
       margin-bottom: 2rem;
       display: flex;
       align-items: center;
       gap: 12px;
+      transition: var(--theme-transition);
     }
 
     .hero-label::before {
       content: '';
       width: 40px;
       height: 1px;
-      background: var(--black);
+      background: var(--text-primary);
     }
 
     .hero h1 {
@@ -258,14 +344,17 @@
       line-height: 0.95;
       margin-bottom: 2rem;
       letter-spacing: -0.03em;
+      color: var(--text-primary);
+      transition: var(--theme-transition);
     }
 
     .hero-description {
       font-size: clamp(1.1rem, 2vw, 1.3rem);
-      color: var(--gray-600);
+      color: var(--text-secondary);
       max-width: 650px;
       line-height: 1.7;
       margin-bottom: 3rem;
+      transition: var(--theme-transition);
     }
 
     .hero-cta {
@@ -290,44 +379,41 @@
     }
 
     .btn-primary {
-      background: var(--black);
-      color: var(--white);
+      background: var(--btn-primary-bg);
+      color: var(--btn-primary-text);
+      transition: var(--transition), var(--theme-transition);
     }
 
     .btn-primary:hover {
-      background: var(--gray-800);
       transform: translateY(-2px);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 10px 30px var(--shadow-heavy);
+      opacity: 0.88;
     }
 
     .btn-secondary {
       background: transparent;
-      color: var(--black);
-      border: 1px solid var(--black);
+      color: var(--text-primary);
+      border: 1px solid var(--text-primary);
+      transition: var(--transition), var(--theme-transition);
     }
 
     .btn-secondary:hover {
-      background: var(--black);
-      color: var(--white);
+      background: var(--text-primary);
+      color: var(--bg-primary);
     }
 
     @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(40px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      from { opacity: 0; transform: translateY(40px); }
+      to   { opacity: 1; transform: translateY(0); }
     }
 
     /* =====================================================
-       ABOUT SECTION - SHORTENED
+       ABOUT
        ===================================================== */
     .about-section {
       padding: 8rem 5%;
-      background: var(--gray-100);
+      background: var(--bg-secondary);
+      transition: var(--theme-transition);
     }
 
     .about-wrapper {
@@ -341,7 +427,8 @@
       letter-spacing: 0.2em;
       text-transform: uppercase;
       margin-bottom: 1rem;
-      color: var(--gray-500);
+      color: var(--text-muted);
+      transition: var(--theme-transition);
     }
 
     .about-title {
@@ -351,6 +438,8 @@
       line-height: 1.1;
       letter-spacing: -0.02em;
       margin-bottom: 3rem;
+      color: var(--text-primary);
+      transition: var(--theme-transition);
     }
 
     .about-content {
@@ -363,41 +452,48 @@
     .about-text {
       font-size: 1.1rem;
       line-height: 1.8;
-      color: var(--gray-700);
+      color: var(--text-secondary);
+      transition: var(--theme-transition);
     }
 
-    .about-text p {
-      margin-bottom: 1.5rem;
+    .about-text p { margin-bottom: 1.5rem; }
+
+    .about-text strong {
+      color: var(--text-primary);
+      transition: var(--theme-transition);
     }
 
     .about-quick-info {
       padding: 2.5rem;
-      background: var(--white);
-      border: 1px solid var(--gray-200);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      transition: var(--theme-transition);
     }
 
     .info-item {
       padding: 1rem 0;
-      border-bottom: 1px solid var(--gray-200);
+      border-bottom: 1px solid var(--border);
       display: flex;
       justify-content: space-between;
       align-items: center;
+      transition: var(--theme-transition);
     }
 
-    .info-item:last-child {
-      border-bottom: none;
-    }
+    .info-item:last-child { border-bottom: none; }
 
     .info-label {
       font-size: 0.85rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      color: var(--gray-500);
+      color: var(--text-muted);
+      transition: var(--theme-transition);
     }
 
     .info-value {
       font-weight: 600;
       text-align: right;
+      color: var(--text-primary);
+      transition: var(--theme-transition);
     }
 
     /* =====================================================
@@ -405,13 +501,11 @@
        ===================================================== */
     .skills-section {
       padding: 8rem 5%;
-      background: var(--white);
+      background: var(--bg-primary);
+      transition: var(--theme-transition);
     }
 
-    .skills-wrapper {
-      max-width: 1100px;
-      margin: 0 auto;
-    }
+    .skills-wrapper { max-width: 1100px; margin: 0 auto; }
 
     .skills-grid {
       display: grid;
@@ -421,13 +515,14 @@
 
     .skill-card {
       padding: 2rem;
-      border: 1px solid var(--gray-200);
-      transition: var(--transition);
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      transition: var(--transition), var(--theme-transition);
     }
 
     .skill-card:hover {
-      background: var(--gray-100);
-      border-color: var(--black);
+      background: var(--bg-secondary);
+      border-color: var(--border-strong);
       transform: translateY(-4px);
     }
 
@@ -435,6 +530,8 @@
       font-family: var(--font-display);
       font-size: 1.2rem;
       margin-bottom: 1.5rem;
+      color: var(--text-primary);
+      transition: var(--theme-transition);
     }
 
     .skill-list {
@@ -446,15 +543,16 @@
 
     .skill-list li {
       font-size: 0.95rem;
-      color: var(--gray-600);
+      color: var(--text-secondary);
       display: flex;
       align-items: center;
       gap: 10px;
+      transition: var(--theme-transition);
     }
 
     .skill-list li::before {
       content: '—';
-      color: var(--black);
+      color: var(--text-primary);
       font-weight: 700;
     }
 
@@ -463,13 +561,11 @@
        ===================================================== */
     .projects-section {
       padding: 8rem 5%;
-      background: var(--gray-100);
+      background: var(--bg-secondary);
+      transition: var(--theme-transition);
     }
 
-    .projects-wrapper {
-      max-width: 1100px;
-      margin: 0 auto;
-    }
+    .projects-wrapper { max-width: 1100px; margin: 0 auto; }
 
     .projects-grid {
       display: grid;
@@ -478,32 +574,31 @@
     }
 
     .project-card {
-      background: var(--white);
-      border: 1px solid var(--gray-200);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
       overflow: hidden;
-      transition: var(--transition);
+      transition: var(--transition), var(--theme-transition);
       cursor: pointer;
     }
 
     .project-card:hover {
       transform: translateY(-8px);
-      border-color: var(--black);
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+      border-color: var(--border-strong);
+      box-shadow: 0 20px 60px var(--shadow);
     }
 
     .project-visual {
       height: 200px;
-      background: var(--black);
+      background: var(--btn-primary-bg);
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 3rem;
-      color: var(--white);
+      color: var(--btn-primary-text);
+      transition: var(--theme-transition);
     }
 
-    .project-info {
-      padding: 2rem;
-    }
+    .project-info { padding: 2rem; }
 
     .project-tags {
       display: flex;
@@ -515,11 +610,13 @@
     .project-tag {
       font-size: 0.75rem;
       padding: 4px 12px;
-      background: var(--gray-100);
-      border: 1px solid var(--gray-200);
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
       text-transform: uppercase;
       letter-spacing: 0.05em;
       font-weight: 600;
+      color: var(--text-secondary);
+      transition: var(--theme-transition);
     }
 
     .project-info h3 {
@@ -527,13 +624,16 @@
       font-size: 1.4rem;
       font-weight: 700;
       margin-bottom: 1rem;
+      color: var(--text-primary);
+      transition: var(--theme-transition);
     }
 
     .project-info p {
       font-size: 0.95rem;
-      color: var(--gray-600);
+      color: var(--text-secondary);
       line-height: 1.6;
       margin-bottom: 1.5rem;
+      transition: var(--theme-transition);
     }
 
     .project-link {
@@ -545,18 +645,18 @@
       transition: gap 0.3s ease;
       text-transform: uppercase;
       letter-spacing: 0.05em;
+      color: var(--text-primary);
     }
 
-    .project-link:hover {
-      gap: 12px;
-    }
+    .project-link:hover { gap: 12px; }
 
     /* =====================================================
        CONTACT
        ===================================================== */
     .contact-section {
       padding: 8rem 5%;
-      background: var(--white);
+      background: var(--bg-primary);
+      transition: var(--theme-transition);
     }
 
     .contact-wrapper {
@@ -571,12 +671,15 @@
       font-weight: 700;
       line-height: 1.2;
       margin-bottom: 1.5rem;
+      color: var(--text-primary);
+      transition: var(--theme-transition);
     }
 
     .contact-wrapper p {
       font-size: 1.2rem;
-      color: var(--gray-600);
+      color: var(--text-secondary);
       margin-bottom: 3rem;
+      transition: var(--theme-transition);
     }
 
     .social-links {
@@ -592,16 +695,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      border: 1px solid var(--gray-300);
+      border: 1px solid var(--border);
       font-size: 1.2rem;
-      color: var(--gray-600);
-      transition: var(--transition);
+      color: var(--text-secondary);
+      transition: var(--transition), var(--theme-transition);
     }
 
     .social-link:hover {
-      background: var(--black);
-      border-color: var(--black);
-      color: var(--white);
+      background: var(--btn-primary-bg);
+      border-color: var(--btn-primary-bg);
+      color: var(--btn-primary-text);
       transform: translateY(-4px);
     }
 
@@ -611,14 +714,16 @@
     footer {
       padding: 3rem 5%;
       text-align: center;
-      border-top: 1px solid var(--gray-200);
-      background: var(--white);
+      border-top: 1px solid var(--border);
+      background: var(--bg-primary);
+      transition: var(--theme-transition);
     }
 
     footer p {
       font-size: 0.9rem;
-      color: var(--gray-500);
+      color: var(--text-muted);
       margin-bottom: 0.5rem;
+      transition: var(--theme-transition);
     }
 
     /* =====================================================
@@ -630,14 +735,14 @@
       right: 2rem;
       width: 50px;
       height: 50px;
-      background: var(--black);
+      background: var(--btn-primary-bg);
       border: none;
-      color: var(--white);
+      color: var(--btn-primary-text);
       font-size: 1.2rem;
       cursor: pointer;
       opacity: 0;
       visibility: hidden;
-      transition: var(--transition);
+      transition: var(--transition), var(--theme-transition);
       z-index: 999;
     }
 
@@ -647,67 +752,32 @@
     }
 
     .scroll-top:hover {
-      background: var(--gray-800);
       transform: translateY(-4px);
+      box-shadow: 0 8px 24px var(--shadow-heavy);
     }
 
     /* =====================================================
        RESPONSIVE
        ===================================================== */
     @media (max-width: 768px) {
-      nav {
-        padding: 1.5rem 4%;
-      }
-
-      .nav-links {
-        display: none;
-      }
-
-      .mobile-menu-btn {
-        display: block;
-      }
-
-      .hero {
-        min-height: 80vh;
-        padding: 0 4%;
-      }
-
-      .hero-cta {
-        flex-direction: column;
-        width: 100%;
-      }
-
-      .btn {
-        width: 100%;
-        justify-content: center;
-      }
-
-      .about-content {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-      }
-
-      .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
-      }
-
-      .projects-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .social-links {
-        gap: 1.5rem;
-      }
+      nav { padding: 1.5rem 4%; }
+      .nav-links { display: none; }
+      .mobile-menu-btn { display: block; }
+      .hero { min-height: 80vh; padding: 0 4%; }
+      .hero-cta { flex-direction: column; width: 100%; }
+      .btn { width: 100%; justify-content: center; }
+      .about-content { grid-template-columns: 1fr; gap: 3rem; }
+      .skills-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+      .projects-grid { grid-template-columns: 1fr; }
+      .social-links { gap: 1.5rem; }
+      .theme-toggle-nav { width: 34px; height: 34px; }
     }
 
-    section[id] {
-      scroll-margin-top: 100px;
-    }
+    section[id] { scroll-margin-top: 100px; }
 
     ::selection {
-      background: var(--black);
-      color: var(--white);
+      background: var(--text-primary);
+      color: var(--bg-primary);
     }
   </style>
 </head>
@@ -727,10 +797,26 @@
   <nav id="navbar">
     <div class="logo">forex911</div>
     <div class="nav-links">
-      <a href="#about" class="nav-link">About</a>
-      <a href="#skills" class="nav-link">Skills</a>
-      <a href="#projects" class="nav-link">Work</a>
-      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#about" class="nav-link">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        About
+      </a>
+      <a href="#skills" class="nav-link">
+        <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        Skills
+      </a>
+      <a href="#projects" class="nav-link">
+        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        Work
+      </a>
+      <a href="#contact" class="nav-link">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Contact
+      </a>
+      <button class="theme-toggle-nav" id="themeToggle" aria-label="Toggle theme">
+        <svg class="svg-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="svg-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
     </div>
     <button class="mobile-menu-btn">
       <i class="fas fa-bars"></i>
@@ -859,77 +945,61 @@
 
       <div class="projects-grid">
         <div class="project-card">
-          <div class="project-visual">
-            <i class="fas fa-download"></i>
-          </div>
+          <div class="project-visual"><i class="fas fa-download"></i></div>
           <div class="project-info">
             <div class="project-tags">
               <span class="project-tag">Python</span>
               <span class="project-tag">API</span>
             </div>
             <h3>Dany Downloader</h3>
-            <p>
-              Tool for downloading content from YouTube, Instagram,Pinterest and Spotify 
-              with format selection and quality options.
-            </p>
-            <a href="https://github.com/forex911/Dany" target="_blank" class="project-link">
-              View Project <i class="fas fa-arrow-right"></i>
-            </a>
+            <p>Tool for downloading content from YouTube, Instagram, Pinterest and Spotify with format selection and quality options.</p>
+            <a href="https://github.com/forex911/Dany" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-
         <div class="project-card">
-          <div class="project-visual">
-            <i class="fas fa-brain"></i>
+            <div class="project-visual"><i class="fas fa-brain"></i></div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">AI</span>
+                <span class="project-tag">Code Analysis</span>
+              </div>
+              <h3>AI Codebase Analyzer</h3>
+              <p>AI-powered tool that scans entire repositories to detect code duplication, analyze complexity, visualize dependencies, and generate intelligent refactoring suggestions.</p>
+              <a href="https://github.com/forex911/repodoc" target="_blank" class="project-link">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
           </div>
+        <div class="project-card">
+          <div class="project-visual"><i class="fas fa-brain"></i></div>
           <div class="project-info">
             <div class="project-tags">
               <span class="project-tag">Python</span>
               <span class="project-tag">CNN</span>
             </div>
             <h3>Character Recognition</h3>
-            <p>
-              Deep learning system using CNNs to recognize handwritten 
-              characters with high accuracy on MNIST dataset.
-            </p>
-            <a href="https://github.com/forex-911/Handwritten-Character-Recognition-System" target="_blank" class="project-link">
-              View Project <i class="fas fa-arrow-right"></i>
-            </a>
+            <p>Deep learning system using CNNs to recognize handwritten characters with high accuracy on MNIST dataset.</p>
+            <a href="https://github.com/forex911/Handwritten-Character-Recognition-System" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
 
-        
         <div class="project-card">
-          <div class="project-visual">
-            <i class="fas fa-shield-alt"></i>
-          </div>
-
+          <div class="project-visual"><i class="fas fa-shield-alt"></i></div>
           <div class="project-info">
             <div class="project-tags">
               <span class="project-tag">Python</span>
               <span class="project-tag">Flask</span>
               <span class="project-tag">Image Security</span>
             </div>
-
             <h3>Traitor-Tracer</h3>
-
-            <p>
-              An invisible image watermarking system for secure source tracking and traitor
-              identification, with robustness evaluation under common image attacks.
-            </p>
-
-            <a href="https://github.com/forex-911/Traitor-Tracker"
-               target="_blank"
-               class="project-link">
-              View Project <i class="fas fa-arrow-right"></i>
-            </a>
+            <p>An invisible image watermarking system for secure source tracking and traitor identification, with robustness evaluation under common image attacks.</p>
+            <a href="https://github.com/forex911/Traitor-Tracker" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
 
         <div class="project-card">
-          <div class="project-visual">
-            <i class="fas fa-sliders-h"></i>
-          </div>
+          <div class="project-visual"><i class="fas fa-sliders-h"></i></div>
           <div class="project-info">
             <div class="project-tags">
               <span class="project-tag">Python</span>
@@ -937,35 +1007,20 @@
               <span class="project-tag">Image Processing</span>
             </div>
             <h3>Lightroom Preset Generator</h3>
-            <p>
-              Intelligent system that analyzes images and automatically generates 
-              Adobe Lightroom-style presets using machine learning and image 
-              enhancement techniques for consistent photo editing.
-            </p>
-            <a href="https://github.com/forex-911/lightroom-preset-engine"
-               target="_blank"
-               class="project-link">
-              View Project <i class="fas fa-arrow-right"></i>
-            </a>
+            <p>Intelligent system that analyzes images and automatically generates Adobe Lightroom-style presets using machine learning and image enhancement techniques.</p>
+            <a href="https://github.com/forex911/lightroom-preset-engine" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-        
+
         <div class="project-card">
-          <div class="project-visual">
-            <i class="fas fa-code"></i>
-          </div>
+          <div class="project-visual"><i class="fas fa-code"></i></div>
           <div class="project-info">
             <div class="project-tags">
               <span class="project-tag">Coming Soon</span>
             </div>
             <h3>More Projects</h3>
-            <p>
-              Currently working on full-stack applications and AI tools. 
-              Check GitHub for updates.
-            </p>
-            <a href="https://github.com/forex-911" target="_blank" class="project-link">
-              View GitHub <i class="fas fa-arrow-right"></i>
-            </a>
+            <p>Currently working on full-stack applications and AI tools. Check GitHub for updates.</p>
+            <a href="https://github.com/forex-911" target="_blank" class="project-link">View GitHub <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -976,23 +1031,13 @@
   <section id="contact" class="contact-section">
     <div class="contact-wrapper">
       <h2>Let's Connect</h2>
-      <p>
-        Open to new opportunities and collaborations.
-      </p>
+      <p>Open to new opportunities and collaborations.</p>
 
       <div class="social-links">
-        <a href="https://github.com/forex-911" target="_blank" class="social-link">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/sivasubramaniyan-c-325397371/" target="_blank" class="social-link">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://www.instagram.com/its_siva._?igsh=MXRybGxvZHEwY3Jicg==" target="_blank" class="social-link">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="mailto:sivasubramaniyan@example.com" class="social-link">
-          <i class="fas fa-envelope"></i>
-        </a>
+        <a href="https://github.com/forex911" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sivasubramaniyan-c-325397371/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/its_siva._?igsh=MXRybGxvZHEwY3Jicg==" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:sivasubramaniyan@example.com" class="social-link"><i class="fas fa-envelope"></i></a>
       </div>
 
       <a href="mailto:sivasubramaniyan@example.com" class="btn btn-primary">
@@ -1012,6 +1057,8 @@
   <button class="scroll-top" id="scrollTop">
     <i class="fas fa-arrow-up"></i>
   </button>
+
+  
 
   <script>
     // ==================== LOADER ====================
@@ -1051,9 +1098,21 @@
       });
     });
 
-    // ==================== CONSOLE ====================
-    console.log('%c👋 Hello!', 'color: #000; font-size: 24px; font-weight: bold;');
-    console.log('%cThanks for visiting', 'color: #808080; font-size: 14px;');
+    // ==================== THEME TOGGLE ====================
+    const themeToggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+
+    // Restore saved preference
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    html.setAttribute('data-theme', savedTheme);
+
+    themeToggle.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      const next = current === 'light' ? 'dark' : 'light';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+
   </script>
 
 </body>
