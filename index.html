@@ -650,6 +650,19 @@
 
     .project-link:hover { gap: 12px; }
 
+    .project-tag--try {
+      background-color: #4f46e5; /* or any accent color you use */
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+    
+    .project-tag--try:hover {
+      background-color: #4338ca;
+      transform: scale(1.05);
+    }
+
     /* =====================================================
        CONTACT
        ===================================================== */
@@ -950,12 +963,16 @@
             <div class="project-tags">
               <span class="project-tag">Python</span>
               <span class="project-tag">API</span>
+              <a href="https://dany-downloader.vercel.app/" target="_blank" class="project-tag project-tag--try">
+                ▶ Try Now
+              </a>
             </div>
             <h3>Dany Downloader</h3>
             <p>Tool for downloading content from YouTube, Instagram, Pinterest and Spotify with format selection and quality options.</p>
             <a href="https://github.com/forex911/Dany" target="_blank" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
+      </div>
         <div class="project-card">
             <div class="project-visual"><i class="fas fa-brain"></i></div>
             <div class="project-info">
@@ -977,6 +994,9 @@
             <div class="project-tags">
               <span class="project-tag">Python</span>
               <span class="project-tag">CNN</span>
+              <a href="https://Repodoc-f9.vercel.app.vercel.app/" target="_blank" class="project-tag project-tag--try">
+                ▶ Try Now
+              </a>
             </div>
             <h3>Character Recognition</h3>
             <p>Deep learning system using CNNs to recognize handwritten characters with high accuracy on MNIST dataset.</p>
