@@ -174,12 +174,11 @@
       font-weight: 800;
       line-height: .92;
       letter-spacing: -.04em;
-      font-size: clamp(3.5rem, 12.5vw, 10rem);
+      font-size: clamp(2rem, 8vw, 9rem);
       margin-bottom: clamp(1rem, 3vw, 2rem);
       opacity: 0;
       animation: slideUp .9s var(--ease) 2.9s forwards;
-      word-break: break-word;
-      hyphens: auto;
+      white-space: nowrap;
     }
     .hero-name em { font-style:italic; color:var(--text2); }
 
@@ -354,6 +353,7 @@
       .mobile-menu-btn     { display:flex; }
       .nav-overlay         { display:block; }
       .hero-ghost          { opacity: 0.03 !important; font-size: clamp(5rem, 30vw, 15rem); right: 5%; top: 30%; }
+      .hero-main           { justify-content: center; padding-top: 6rem; }
       .hero-bottom  { flex-direction:column; align-items:flex-start; gap: 1.5rem; }
       .hero-desc    { max-width:100%; }
       .hero-cta     { width:100%; flex-direction:column; }
@@ -378,7 +378,6 @@
 
     @media (max-width:360px) {
       :root { --px: 1.2rem; }
-      .hero-name { font-size: 3.2rem; }
       h2.s-title { font-size: 2.2rem; }
       .stat-n { font-size: 2rem; }
     }
@@ -463,10 +462,10 @@
       <button class="theme-btn" id="themeToggle" type="button" aria-label="Toggle theme">
         <i class="fas fa-sun" id="themeIcon"></i>
       </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Open menu">
+        <i class="fas fa-bars"></i>
+      </button>
     </div>
-    <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Open menu">
-      <i class="fas fa-bars"></i>
-    </button>
   </nav>
 
   <!-- HERO -->
@@ -581,16 +580,16 @@
           <div class="proj-body"><div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">AI</span><span class="proj-tag">Code Analysis</span></div><h3>AI Codebase Analyzer</h3><p>AI-powered tool that scans entire repositories to detect code duplication, analyze complexity, visualize dependencies, and generate intelligent refactoring suggestions.</p><div class="proj-actions"><a href="https://github.com/forex911/repodoc" target="_blank" rel="noopener" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a><a href="https://Repodoc-f9.vercel.app/" target="_blank" rel="noopener" class="btn-try">▶ Try Now</a></div></div>
         </div>
         <div class="proj-card reveal">
+          <div class="proj-thumb"><div class="proj-thumb-bg"></div><div class="proj-icon"><i class="fas fa-sliders-h"></i></div></div>
+          <div class="proj-body"><div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">ML</span><span class="proj-tag">Image Processing</span></div><h3>Lightroom Preset Generator</h3><p>Intelligent system that analyses images and automatically generates Adobe Lightroom-style presets using ML and image enhancement techniques.</p><div class="proj-actions"><a href="https://github.com/forex911/PRESET-GENERATER" target="_blank" rel="noopener" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a><a href="https://preset-generater.vercel.app/" target="_blank" rel="noopener" class="btn-try">▶ Try Now</a></div></div>
+        </div>
+        <div class="proj-card reveal">
           <div class="proj-thumb"><div class="proj-thumb-bg"></div><div class="proj-icon"><i class="fas fa-font"></i></div></div>
           <div class="proj-body"><div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">CNN</span></div><h3>Character Recognition</h3><p>Deep learning system using CNNs to recognise handwritten characters with high accuracy on the MNIST dataset.</p><div class="proj-actions"><a href="https://github.com/forex911/Handwritten-Character-Recognition-System" target="_blank" rel="noopener" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a></div></div>
         </div>
         <div class="proj-card reveal">
           <div class="proj-thumb"><div class="proj-thumb-bg"></div><div class="proj-icon"><i class="fas fa-shield-alt"></i></div></div>
           <div class="proj-body"><div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">Flask</span><span class="proj-tag">Security</span></div><h3>Traitor-Tracer</h3><p>An invisible image watermarking system for secure source tracking and traitor identification, with robustness evaluation under common image attacks.</p><div class="proj-actions"><a href="https://github.com/forex911/Traitor-Tracker" target="_blank" rel="noopener" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a></div></div>
-        </div>
-        <div class="proj-card reveal">
-          <div class="proj-thumb"><div class="proj-thumb-bg"></div><div class="proj-icon"><i class="fas fa-sliders-h"></i></div></div>
-          <div class="proj-body"><div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">ML</span><span class="proj-tag">Image Processing</span></div><h3>Lightroom Preset Generator</h3><p>Intelligent system that analyses images and automatically generates Adobe Lightroom-style presets using ML and image enhancement techniques.</p><div class="proj-actions"><a href="https://github.com/forex911/PRESET-GENERATER" target="_blank" rel="noopener" class="proj-link">View Project <i class="fas fa-arrow-right"></i></a><a href="https://preset-generater.vercel.app/" target="_blank" rel="noopener" class="btn-try">▶ Try Now</a></div></div>
         </div>
         <div class="proj-card reveal">
           <div class="proj-thumb"><div class="proj-thumb-bg"></div><div class="proj-icon"><i class="fas fa-code"></i></div></div>
