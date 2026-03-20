@@ -24,11 +24,13 @@ Software developer focused on artificial intelligence and building practical too
 
 | # | Project | Link |
 |---|---------|------|
-| 01 | **Dany Downloader** | [View →](https://dany-downloader.vercel.app/) |
+| 01 | **Dany-Downloader** | [View →](https://dany-downloader.vercel.app/) |
 | 02 | **RepoDoc** | [View →](https://repodoc-f9.vercel.app) |
 | 03 | **Paste2Project** | [View →](https://github.com/forex911/F9-Paste2Project) |
-| 04 | **Preset Generator** | [View →](https://preset-generater.vercel.app/) |
+| 04 | **Preset-Generator** | [View →](https://preset-generater.vercel.app/) |
 | 05 | **Character-Recognition** | [View →](https://character-recognition.vercel.app/) |
+| 06 | **Traitor-Tracker** | [View →](https://traitor-tracker.vercel.app/) |
+
 ---
 
 ## GitHub Stats
