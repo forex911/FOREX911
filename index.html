@@ -544,7 +544,6 @@
         margin-bottom: clamp(1rem, 3vw, 2rem);
         opacity: 0;
         animation: slideUp 0.9s var(--ease) 2.9s forwards;
-        white-space: nowrap;
       }
       .hero-name em {
         font-style: italic;
@@ -1309,6 +1308,10 @@
         scroll-margin-top: 80px;
       }
 
+      @media (min-width: 769px) {
+        .hero-name { white-space: nowrap; }
+      }
+
       /* ═══════════════════════════════════════════════════
        BREAKPOINTS — DESKTOP / TABLET
     ═══════════════════════════════════════════════════ */
@@ -1387,8 +1390,10 @@
           top: 28%;
         }
         .hero-name {
-          font-size: clamp(2.6rem, 11vw, 5rem);
+          font-size: clamp(2.4rem, 10.5vw, 5rem);
           white-space: normal;
+          word-break: break-word;
+          overflow-wrap: break-word;
           line-height: 0.95;
           margin-bottom: 1.2rem;
         }
@@ -2316,8 +2321,7 @@
               Open to internships, freelance projects, and collaborations. I
               reply within 24 hours.
             </p>
-            <a href="mailto:forex911x@gmail.com" class="c-email"
-              >forex911x@gmail.com <i class="fas fa-arrow-right"></i
+            <a href="/cdn-cgi/l/email-protection#c0a6afb2a5b8f9f1f1b880a7ada1a9aceea3afad" class="c-email"><span class="__cf_email__" data-cfemail="44222b36213c7d75753c042329252d286a272b29">[email&#160;protected]</span> <i class="fas fa-arrow-right"></i
             ></a>
           </div>
           <div class="reveal">
@@ -2355,8 +2359,7 @@
                   <div class="sn">@its_siva._</div>
                 </div></a
               >
-              <a href="mailto:forex911x@gmail.com" class="social-card"
-                ><i class="fas fa-envelope si"></i>
+              <a href="/cdn-cgi/l/email-protection#27414855425f1e16165f67404a464e4b0944484a" class="social-card"><i class="fas fa-envelope si"></i>
                 <div>
                   <div class="sl">Email</div>
                   <div class="sn">Send Message</div>
@@ -2388,7 +2391,7 @@
       <i class="fas fa-arrow-up"></i>
     </button>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
       "use strict";
 
       /* ── LOADER ── */
