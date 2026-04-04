@@ -30,7 +30,7 @@ Software developer focused on artificial intelligence and building practical too
 | 04 | **Preset-Generator** | [View →](https://preset-generater.vercel.app/) |
 | 05 | **Character-Recognition** | [View →](https://character-recognition.vercel.app/) |
 | 06 | **Traitor-Tracker** | [View →](https://traitor-tracker.vercel.app/) |
-| 07 | **F9-Gallery** | [View →]((https://f9-gallery.vercel.app/)) |
+| 07 | **F9-Gallery** | [View →](https://f9-gallery.vercel.app/) |
 
 ---
 
