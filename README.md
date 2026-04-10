@@ -27,6 +27,7 @@ Software developer focused on artificial intelligence and building practical too
 | `05` | [**Character-Recognition**](https://character-recognition.vercel.app/) ↗ |
 | `06` | [**Traitor-Tracker**](https://traitor-tracker.vercel.app/) ↗ |
 | `07` | [**F9-Gallery**](https://f9-gallery.vercel.app/) ↗ |
+| `08` | [**F9-Flow**](https://f9-Flow.vercel.app/) ↗ |
 
 ---
 
