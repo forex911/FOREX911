@@ -18,7 +18,7 @@ Software developer focused on artificial intelligence and building practical too
 
 ### PROJECTS
 
-
+| | |
 |---|---|
 | `01` | [**Dany-Downloader**](https://dany-desktop.vercel.app/) ↗ |
 | `02` | [**RepoDoc**](https://repodoc-f9.vercel.app) ↗ |
