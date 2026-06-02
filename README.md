@@ -28,7 +28,7 @@ Software developer focused on artificial intelligence and building practical too
 | `06` | [**Traitor-Tracker**](https://traitor-tracker.vercel.app/) ↗ |
 | `07` | [**F9-Gallery**](https://f9-gallery.vercel.app/) ↗ |
 | `08` | [**F9-Flow**](https://f9-Flow.vercel.app/) ↗ |
-| `09` | [**PinDrop**](https://pindrop.forex911.onnline/) ↗ |
+| `09` | [**PinDrop**](https://pindrop.forex911.online/) ↗ |
 | `10` | [**DrawingSpot**](https://Drawing-spot.vercel.app/) ↗ |
 
 ---
