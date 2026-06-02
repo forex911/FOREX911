@@ -20,7 +20,7 @@ Software developer focused on artificial intelligence and building practical too
 
 | | |
 |---|---|
-| `01` | [**Dany-Downloader**](Dany.forex911.online) ↗ |
+| `01` | [**Dany-Downloader**](https://Dany.forex911.online) ↗ |
 | `02` | [**RepoDoc**](https://repodoc-f9.vercel.app) ↗ |
 | `03` | [**Paste2Project**](https://f9-paste2project.vercel.app/) ↗ |
 | `04` | [**Preset-Generator**](https://preset-generater.vercel.app/) ↗ |
