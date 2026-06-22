@@ -30,6 +30,7 @@ Software developer focused on artificial intelligence and building practical too
 | `08` | [**F9-Flow**](https://f9-Flow.vercel.app/) ↗ |
 | `09` | [**PinDrop**](https://pindrop.forex911.online/) ↗ |
 | `10` | [**DrawingSpot**](https://Drawing-spot.vercel.app/) ↗ |
+| `10` | [**NeuraDepth**](https://github.com/forex911/NeuraDepth/) ↗ |
 
 ---
 
