@@ -1,7 +1,5 @@
 # forex911
-
-Developer · AI Explorer · Builder
-
+Developer · AI Explorer · Builder  
 Building AI-powered tools, developer utilities, and modern web applications.
 
 ---
@@ -14,35 +12,35 @@ Building AI-powered tools, developer utilities, and modern web applications.
 
 ## Projects
 
-| Project                   | Description                                                                | Repository                                        | Live Demo                                |
-| ------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------- |
-| **Dany Downloader**       | Modern desktop media downloader supporting multiple platforms.             | https://github.com/forex911/Dany-Desktop          | https://dany.forex911.online             |
-| **RepoDoc**               | Generate clean project documentation and README files from source code.    | https://github.com/forex911/RepoDoc               | https://repodoc-f9.vercel.app            |
-| **Paste2Project**         | Convert AI-generated code snippets into complete project structures.       | https://github.com/forex911/Paste2Project         | https://p2p.forex911.online              |
-| **Preset Generator**      | AI-powered Lightroom preset generator from natural language prompts.       | https://github.com/forex911/Preset-Generator      | https://preset-generater.vercel.app      |
-| **Character Recognition** | Handwritten character recognition using deep learning and computer vision. | https://github.com/forex911/Character-Recognition | https://character-recognition.vercel.app |
-| **Traitor Tracker**       | Invisible image watermarking and ownership verification platform.          | https://github.com/forex911/Traitor-Tracker       | https://traitor-tracker.vercel.app       |
-| **F9 Gallery**            | Modern image hosting and gallery management application.                   | https://github.com/forex911/F9-Gallery            | https://f9-gallery.vercel.app            |
-| **F9 Flow**               | Visual workflow builder for designing and automating processes.            | https://github.com/forex911/F9-Flow               | https://flow.forex911.online             |
-| **PinDrop**               | Share and discover locations with interactive maps and collaboration.      | https://github.com/forex911/PinDrop               | https://pindrop.forex911.online          |
-| **DrawingSpot**           | Browser-based collaborative drawing and sketching application.             | https://github.com/forex911/DrawingSpot           | https://drawing-spot.vercel.app          |
-| **NeuraDepth**            | AI-powered monocular depth estimation and image enhancement.               | https://github.com/forex911/NeuraDepth            | —                                        |
+| Project | Description | Repository | Live Demo |
+| --- | --- | --- | --- |
+| **Dany Downloader** | Modern desktop media downloader supporting multiple platforms. | [![GitHub](https://img.shields.io/badge/GitHub-Dany--Desktop-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Dany-Desktop) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://dany.forex911.online) |
+| **RepoDoc** | Generate clean project documentation and README files from source code. | [![GitHub](https://img.shields.io/badge/GitHub-RepoDoc-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/RepoDoc) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://repodoc-f9.vercel.app) |
+| **Paste2Project** | Convert AI-generated code snippets into complete project structures. | [![GitHub](https://img.shields.io/badge/GitHub-Paste2Project-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Paste2Project) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://p2p.forex911.online) |
+| **Preset Generator** | AI-powered Lightroom preset generator from natural language prompts. | [![GitHub](https://img.shields.io/badge/GitHub-Preset--Generator-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Preset-Generator) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://preset-generater.vercel.app) |
+| **Character Recognition** | Handwritten character recognition using deep learning and computer vision. | [![GitHub](https://img.shields.io/badge/GitHub-Character--Recognition-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Character-Recognition) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://character-recognition.vercel.app) |
+| **Traitor Tracker** | Invisible image watermarking and ownership verification platform. | [![GitHub](https://img.shields.io/badge/GitHub-Traitor--Tracker-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Traitor-Tracker) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://traitor-tracker.vercel.app) |
+| **F9 Gallery** | Modern image hosting and gallery management application. | [![GitHub](https://img.shields.io/badge/GitHub-F9--Gallery-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/F9-Gallery) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://f9-gallery.vercel.app) |
+| **F9 Flow** | Visual workflow builder for designing and automating processes. | [![GitHub](https://img.shields.io/badge/GitHub-F9--Flow-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/F9-Flow) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://flow.forex911.online) |
+| **PinDrop** | Share and discover locations with interactive maps and collaboration. | [![GitHub](https://img.shields.io/badge/GitHub-PinDrop-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/PinDrop) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://pindrop.forex911.online) |
+| **DrawingSpot** | Browser-based collaborative drawing and sketching application. | [![GitHub](https://img.shields.io/badge/GitHub-DrawingSpot-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/DrawingSpot) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://drawing-spot.vercel.app) |
+| **NeuraDepth** | AI-powered monocular depth estimation and image enhancement. | [![GitHub](https://img.shields.io/badge/GitHub-NeuraDepth-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/NeuraDepth) | — |
 
 ---
 
 ## Currently Exploring
 
-* Artificial Intelligence
-* Agentic AI
-* Developer Tooling
-* Computer Vision
-* Cloud Infrastructure
-* Open Source
+- Artificial Intelligence
+- Agentic AI
+- Developer Tooling
+- Computer Vision
+- Cloud Infrastructure
+- Open Source
 
 ---
 
 ## Contact
 
-* **Portfolio:** https://forex911.online
-* **GitHub:** https://github.com/forex911
-* **Email:** [forex911x@gmail.com](mailto:forex911x@gmail.com)
+- **Portfolio:** [![Portfolio](https://img.shields.io/badge/forex911.online-000000?logo=google-chrome&logoColor=white&style=flat-square)](https://forex911.online)
+- **GitHub:** [![GitHub](https://img.shields.io/badge/@forex911-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911)
+- **Email:** [![Email](https://img.shields.io/badge/forex911x@gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:forex911x@gmail.com)
