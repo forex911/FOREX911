@@ -1,40 +1,48 @@
 # forex911
+
 Developer · AI Explorer · Builder
 
----
-
-### ABOUT
-
-Software developer focused on artificial intelligence and building practical tools. Exploring the intersection of ML, automation, and developer tooling.
+Building AI-powered tools, developer utilities, and modern web applications.
 
 ---
 
-### STACK
+## Stack
 
-`Python` `Java` `C` `JavaScript` `SQL`
-`Git` `VS Code` `AI/ML` `Data Science`
-
----
-
-### PROJECTS
-
-| | |
-|---|---|
-| `01` | [**Dany-Downloader**](https://Dany.forex911.online) ↗ |
-| `02` | [**RepoDoc**](https://repodoc-f9.vercel.app) ↗ |
-| `03` | [**Paste2Project**](https://p2p.forex911.online/) ↗ |
-| `04` | [**Preset-Generator**](https://preset-generater.vercel.app/) ↗ |
-| `05` | [**Character-Recognition**](https://character-recognition.vercel.app/) ↗ |
-| `06` | [**Traitor-Tracker**](https://traitor-tracker.vercel.app/) ↗ |
-| `07` | [**F9-Gallery**](https://f9-gallery.vercel.app/) ↗ |
-| `08` | [**F9-Flow**](https://flow.forex911.online/) ↗ |
-| `09` | [**PinDrop**](https://pindrop.forex911.online/) ↗ |
-| `10` | [**DrawingSpot**](https://Drawing-spot.vercel.app/) ↗ |
-| `11` | [**NeuraDepth**](https://github.com/forex911/NeuraDepth/) ↗ |
+`Python` `Java` `JavaScript` `C` `SQL` `React` `FastAPI` `Node.js` `Git`
 
 ---
 
-### CONTACT
+## Projects
 
-[![GitHub](https://img.shields.io/badge/GitHub-forex911-181717?style=flat&logo=github)](https://github.com/forex911)
-[![Email](https://img.shields.io/badge/Email-forex911x@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:forex911x@gmail.com)
+| Project                   | Description                                                                | Repository                                        | Live Demo                                |
+| ------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------- |
+| **Dany Downloader**       | Modern desktop media downloader supporting multiple platforms.             | https://github.com/forex911/Dany-Downloader       | https://dany.forex911.online             |
+| **RepoDoc**               | Generate clean project documentation and README files from source code.    | https://github.com/forex911/RepoDoc               | https://repodoc-f9.vercel.app            |
+| **Paste2Project**         | Convert AI-generated code snippets into complete project structures.       | https://github.com/forex911/Paste2Project         | https://p2p.forex911.online              |
+| **Preset Generator**      | AI-powered Lightroom preset generator from natural language prompts.       | https://github.com/forex911/Preset-Generator      | https://preset-generater.vercel.app      |
+| **Character Recognition** | Handwritten character recognition using deep learning and computer vision. | https://github.com/forex911/Character-Recognition | https://character-recognition.vercel.app |
+| **Traitor Tracker**       | Invisible image watermarking and ownership verification platform.          | https://github.com/forex911/Traitor-Tracker       | https://traitor-tracker.vercel.app       |
+| **F9 Gallery**            | Modern image hosting and gallery management application.                   | https://github.com/forex911/F9-Gallery            | https://f9-gallery.vercel.app            |
+| **F9 Flow**               | Visual workflow builder for designing and automating processes.            | https://github.com/forex911/F9-Flow               | https://flow.forex911.online             |
+| **PinDrop**               | Share and discover locations with interactive maps and collaboration.      | https://github.com/forex911/PinDrop               | https://pindrop.forex911.online          |
+| **DrawingSpot**           | Browser-based collaborative drawing and sketching application.             | https://github.com/forex911/DrawingSpot           | https://drawing-spot.vercel.app          |
+| **NeuraDepth**            | AI-powered monocular depth estimation and image enhancement.               | https://github.com/forex911/NeuraDepth            | —                                        |
+
+---
+
+## Currently Exploring
+
+* Artificial Intelligence
+* Agentic AI
+* Developer Tooling
+* Computer Vision
+* Cloud Infrastructure
+* Open Source
+
+---
+
+## Contact
+
+* **Portfolio:** https://forex911.online
+* **GitHub:** https://github.com/forex911
+* **Email:** [forex911x@gmail.com](mailto:forex911x@gmail.com)
