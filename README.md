@@ -16,7 +16,7 @@ Building AI-powered tools, developer utilities, and modern web applications.
 
 | Project                   | Description                                                                | Repository                                        | Live Demo                                |
 | ------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------- |
-| **Dany Downloader**       | Modern desktop media downloader supporting multiple platforms.             | https://github.com/forex911/Dany-Downloader       | https://dany.forex911.online             |
+| **Dany Downloader**       | Modern desktop media downloader supporting multiple platforms.             | https://github.com/forex911/Dany-Desktop          | https://dany.forex911.online             |
 | **RepoDoc**               | Generate clean project documentation and README files from source code.    | https://github.com/forex911/RepoDoc               | https://repodoc-f9.vercel.app            |
 | **Paste2Project**         | Convert AI-generated code snippets into complete project structures.       | https://github.com/forex911/Paste2Project         | https://p2p.forex911.online              |
 | **Preset Generator**      | AI-powered Lightroom preset generator from natural language prompts.       | https://github.com/forex911/Preset-Generator      | https://preset-generater.vercel.app      |
