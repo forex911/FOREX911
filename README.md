@@ -22,12 +22,12 @@ Software developer focused on artificial intelligence and building practical too
 |---|---|
 | `01` | [**Dany-Downloader**](https://Dany.forex911.online) ↗ |
 | `02` | [**RepoDoc**](https://repodoc-f9.vercel.app) ↗ |
-| `03` | [**Paste2Project**](https://f9-paste2project.vercel.app/) ↗ |
+| `03` | [**Paste2Project**](https://p2p.forex911.online/) ↗ |
 | `04` | [**Preset-Generator**](https://preset-generater.vercel.app/) ↗ |
 | `05` | [**Character-Recognition**](https://character-recognition.vercel.app/) ↗ |
 | `06` | [**Traitor-Tracker**](https://traitor-tracker.vercel.app/) ↗ |
 | `07` | [**F9-Gallery**](https://f9-gallery.vercel.app/) ↗ |
-| `08` | [**F9-Flow**](https://f9-Flow.vercel.app/) ↗ |
+| `08` | [**F9-Flow**](https://flow.forex911.online/) ↗ |
 | `09` | [**PinDrop**](https://pindrop.forex911.online/) ↗ |
 | `10` | [**DrawingSpot**](https://Drawing-spot.vercel.app/) ↗ |
 | `11` | [**NeuraDepth**](https://github.com/forex911/NeuraDepth/) ↗ |
