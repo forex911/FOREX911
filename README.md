@@ -76,7 +76,7 @@ Building AI-powered tools, developer utilities, and modern web applications.
 
 - **Portfolio:** [![Portfolio](https://img.shields.io/badge/forex911.online-000000?logo=google-chrome&logoColor=white&style=flat-square)](https://forex911.online)
 
-- **GitHub:** [![GitHub](https://img.shields.io/badge/@forex911-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex-911)
+- **GitHub:** [![GitHub](https://img.shields.io/badge/@forex911-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911)
 
 - **Docker Hub:** [![Docker Hub](https://img.shields.io/badge/forex911-2496ED?logo=docker&logoColor=white&style=flat-square)](https://hub.docker.com/u/forex911)
 
