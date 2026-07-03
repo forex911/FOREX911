@@ -6,9 +6,42 @@ Building AI-powered tools, developer utilities, and modern web applications.
 
 ## Stack
 
-`Python` `Java` `JavaScript` `C` `SQL` `React` `FastAPI` `Node.js` `Git`
+**Languages**
 
----
+`Python` `Java` `JavaScript` `TypeScript` `C` `SQL` `PHP`
+
+**Frontend**
+
+`React` `Vite` `HTML5` `CSS3` `Tailwind CSS` `Three.js` `React Three Fiber`
+
+**Backend**
+
+`FastAPI` `Flask` `Node.js` `Express.js` `REST APIs` `WebSockets`
+
+**AI / ML**
+
+`PyTorch` `OpenCV` `NumPy` `Pillow` `Computer Vision` `Deep Learning`
+
+**Database**
+
+`PostgreSQL` `MySQL` `Supabase`
+
+**DevOps**
+
+`Docker` `Git` `GitHub Actions` `Linux`
+
+**Tools**
+
+`Postman` `Figma` `VS Code`
+
+**Specializations**
+
+`AI Applications`
+`Computer Vision`
+`3D Visualization`
+`Backend Systems`
+`Full Stack Development`
+`Cybersecurity`
 
 ## Projects
 
@@ -49,6 +82,6 @@ Building AI-powered tools, developer utilities, and modern web applications.
 
 - **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/Sivasubramaniyan_C-0A66C2?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sivasubramaniyan-c-325397371/)
 
-- **Instagram:** [![Instagram](https://img.shields.io/badge/@forex911__-E4405F?logo=instagram&logoColor=white&style=flat-square)](https://instagram.com/its_siva._)
+- **Instagram:** [![Instagram](https://img.shields.io/badge/@Its_siva.__-E4405F?logo=instagram&logoColor=white&style=flat-square)](https://instagram.com/its_siva._)
 
 - **Email:** [![Email](https://img.shields.io/badge/forex911x@gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:forex911x@gmail.com)
