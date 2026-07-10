@@ -1,10 +1,16 @@
-# forex911
-Developer · AI Explorer · Builder  
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0C10,50:8B0000,100:1F3A93&height=180&section=header&text=forex911&fontSize=52&fontColor=E8E8E8&fontAlignY=38&desc=Developer%20%C2%B7%20AI%20Explorer%20%C2%B7%20Builder&descAlignY=58&descSize=18" width="100%" alt="header banner"/>
+
+![divider](https://img.shields.io/badge/%F0%9F%95%B8%EF%B8%8F_%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94_%F0%9F%95%B8%EF%B8%8F-000000?style=flat-square&labelColor=8B0000)
+
+</div>
+
 Building AI-powered tools, developer utilities, and modern web applications.
 
 ---
 
-## Stack
+## 🕸️ Stack
 
 **Languages**
 
@@ -65,34 +71,34 @@ Building AI-powered tools, developer utilities, and modern web applications.
 
 **Specializations**
 
-![AI Applications](https://img.shields.io/badge/AI_Applications-6E56CF?style=flat-square)
-![Computer Vision](https://img.shields.io/badge/Computer_Vision-6E56CF?style=flat-square)
-![3D Visualization](https://img.shields.io/badge/3D_Visualization-6E56CF?style=flat-square)
-![Backend Systems](https://img.shields.io/badge/Backend_Systems-6E56CF?style=flat-square)
-![Full Stack Development](https://img.shields.io/badge/Full_Stack_Development-6E56CF?style=flat-square)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-6E56CF?style=flat-square)
+![AI Applications](https://img.shields.io/badge/AI_Applications-8B0000?style=flat-square)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-1F3A93?style=flat-square)
+![3D Visualization](https://img.shields.io/badge/3D_Visualization-8B0000?style=flat-square)
+![Backend Systems](https://img.shields.io/badge/Backend_Systems-1F3A93?style=flat-square)
+![Full Stack Development](https://img.shields.io/badge/Full_Stack_Development-8B0000?style=flat-square)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-1F3A93?style=flat-square)
 
 ---
 
-## Projects
+## 🕸️ Projects
 
 | Project | Description | Repository | Live Demo |
 | --- | --- | --- | --- |
-| **Dany Downloader** | Modern desktop media downloader supporting multiple platforms. | [![GitHub](https://img.shields.io/badge/GitHub-dany--desktop-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/dany-desktop) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://dany.forex911.online) |
-| **RepoDoc** | Generate clean project documentation and README files from source code. | [![GitHub](https://img.shields.io/badge/GitHub-RepoDoc-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/RepoDoc) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://repodoc-f9.vercel.app) |
-| **Paste2Project** | Convert AI-generated code snippets into complete project structures. | [![GitHub](https://img.shields.io/badge/GitHub-Paste2Project-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Paste2Project) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://p2p.forex911.online) |
-| **Preset Generator** | AI-powered Lightroom preset generator from natural language prompts. | [![GitHub](https://img.shields.io/badge/GitHub-PRESET--GENERATER-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/PRESET-GENERATER) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://preset-generater.vercel.app) |
-| **Character Recognition** | Handwritten character recognition using deep learning and computer vision. | [![GitHub](https://img.shields.io/badge/GitHub-Character__Recognition-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Character_Recognition) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://character-recognition.vercel.app) |
-| **Traitor Tracker** | Invisible image watermarking and ownership verification platform. | [![GitHub](https://img.shields.io/badge/GitHub-Traitor__Tracker-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Traitor_Tracker) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://traitor-tracker.vercel.app) |
-| **F9 Gallery** | Modern image hosting and gallery management application. | [![GitHub](https://img.shields.io/badge/GitHub-gallery-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/gallery) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://f9-gallery.vercel.app) |
-| **F9 Flow** | Visual workflow builder for designing and automating processes. | [![GitHub](https://img.shields.io/badge/GitHub-F9--Flow-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/F9-Flow) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://flow.forex911.online) |
-| **PinDrop** | Share and discover locations with interactive maps and collaboration. | [![GitHub](https://img.shields.io/badge/GitHub-PinDrop-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/PinDrop) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://pindrop.forex911.online) |
-| **DrawingSpot** | Browser-based collaborative drawing and sketching application. | [![GitHub](https://img.shields.io/badge/GitHub-DrawingSpot-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/DrawingSpot) | [![Live](https://img.shields.io/badge/Live-Demo-4CAF50?logo=vercel&logoColor=white&style=flat-square)](https://drawing-spot.vercel.app) |
-| **NeuraDepth** | AI-powered monocular depth estimation and image enhancement. | [![GitHub](https://img.shields.io/badge/GitHub-NeuraDepth-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/NeuraDepth) | — |
+| **Dany Downloader** | Modern desktop media downloader supporting multiple platforms. | [![GitHub](https://img.shields.io/badge/GitHub-dany--desktop-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/dany-desktop) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://dany.forex911.online) |
+| **RepoDoc** | Generate clean project documentation and README files from source code. | [![GitHub](https://img.shields.io/badge/GitHub-RepoDoc-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/RepoDoc) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://repodoc-f9.vercel.app) |
+| **Paste2Project** | Convert AI-generated code snippets into complete project structures. | [![GitHub](https://img.shields.io/badge/GitHub-Paste2Project-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Paste2Project) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://p2p.forex911.online) |
+| **Preset Generator** | AI-powered Lightroom preset generator from natural language prompts. | [![GitHub](https://img.shields.io/badge/GitHub-PRESET--GENERATER-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/PRESET-GENERATER) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://preset-generater.vercel.app) |
+| **Character Recognition** | Handwritten character recognition using deep learning and computer vision. | [![GitHub](https://img.shields.io/badge/GitHub-Character__Recognition-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Character_Recognition) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://character-recognition.vercel.app) |
+| **Traitor Tracker** | Invisible image watermarking and ownership verification platform. | [![GitHub](https://img.shields.io/badge/GitHub-Traitor__Tracker-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Traitor_Tracker) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://traitor-tracker.vercel.app) |
+| **F9 Gallery** | Modern image hosting and gallery management application. | [![GitHub](https://img.shields.io/badge/GitHub-gallery-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/gallery) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://f9-gallery.vercel.app) |
+| **F9 Flow** | Visual workflow builder for designing and automating processes. | [![GitHub](https://img.shields.io/badge/GitHub-F9--Flow-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/F9-Flow) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://flow.forex911.online) |
+| **PinDrop** | Share and discover locations with interactive maps and collaboration. | [![GitHub](https://img.shields.io/badge/GitHub-PinDrop-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/PinDrop) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://pindrop.forex911.online) |
+| **DrawingSpot** | Browser-based collaborative drawing and sketching application. | [![GitHub](https://img.shields.io/badge/GitHub-DrawingSpot-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/DrawingSpot) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://drawing-spot.vercel.app) |
+| **NeuraDepth** | AI-powered monocular depth estimation and image enhancement. | [![GitHub](https://img.shields.io/badge/GitHub-NeuraDepth-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/NeuraDepth) | — |
 
 ---
 
-## Currently Exploring
+## 🕸️ Currently Exploring
 
 - Artificial Intelligence
 - Agentic AI
@@ -107,7 +113,7 @@ Building AI-powered tools, developer utilities, and modern web applications.
 
 - **Portfolio:** [![Portfolio](https://img.shields.io/badge/forex911.online-000000?logo=google-chrome&logoColor=white&style=flat-square)](https://forex911.online)
 
-- **GitHub:** [![GitHub](https://img.shields.io/badge/@forex911-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911)
+- **GitHub:** [![GitHub](https://img.shields.io/badge/@forex911-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911)
 
 - **Docker Hub:** [![Docker Hub](https://img.shields.io/badge/forex911-2496ED?logo=docker&logoColor=white&style=flat-square)](https://hub.docker.com/u/forex911)
 
@@ -116,3 +122,9 @@ Building AI-powered tools, developer utilities, and modern web applications.
 - **Instagram:** [![Instagram](https://img.shields.io/badge/@Its_siva.__-E4405F?logo=instagram&logoColor=white&style=flat-square)](https://instagram.com/its_siva._)
 
 - **Email:** [![Email](https://img.shields.io/badge/forex911x@gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:forex911x@gmail.com)
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F3A93,50:8B0000,100:0B0C10&height=100&section=footer" width="100%" alt="footer banner"/>
+</div>
