@@ -1,12 +1,6 @@
-🕸️
-<br/>┊
-<br/>┊
-<br/>┊
-<br/>🕷️
 
-<div align="center">
 
-# forex911
+# Forex911
 
 **Developer · AI Explorer · Builder**
 
