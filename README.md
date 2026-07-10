@@ -1,8 +1,14 @@
+🕸️
+<br/>┊
+<br/>┊
+<br/>┊
+<br/>🕷️
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0C10,50:8B0000,100:1F3A93&height=180&section=header&text=forex911&fontSize=52&fontColor=E8E8E8&fontAlignY=38&desc=Developer%20%C2%B7%20AI%20Explorer%20%C2%B7%20Builder&descAlignY=58&descSize=18" width="100%" alt="header banner"/>
+# forex911
 
-![divider](https://img.shields.io/badge/%F0%9F%95%B8%EF%B8%8F_%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94_%F0%9F%95%B8%EF%B8%8F-000000?style=flat-square&labelColor=8B0000)
+**Developer · AI Explorer · Builder**
 
 </div>
 
@@ -109,7 +115,7 @@ Building AI-powered tools, developer utilities, and modern web applications.
 
 ---
 
-## 📬 Contact
+## 🕸️ Contact
 
 - **Portfolio:** [![Portfolio](https://img.shields.io/badge/forex911.online-000000?logo=google-chrome&logoColor=white&style=flat-square)](https://forex911.online)
 
@@ -126,5 +132,9 @@ Building AI-powered tools, developer utilities, and modern web applications.
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F3A93,50:8B0000,100:0B0C10&height=100&section=footer" width="100%" alt="footer banner"/>
+
+🕷️ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 🕸️
+
+**Thanks for stopping by!**
+
 </div>
