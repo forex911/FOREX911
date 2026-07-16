@@ -1,0 +1,47 @@
+name: Refresh README banner
+
+# Forces GitHub's camo image proxy to re-fetch the banner by changing
+# the URL's query string on a schedule. Camo caches per-URL, so a
+# different "?v=" value is treated as a brand new image request even
+# though the underlying /api/banner endpoint is unchanged.
+#
+# NOTE: this does not bypass any cache-purge API (none exists for camo).
+# It works by making the README's image URL itself change periodically,
+# which is the only reliable way to force a fresh fetch.
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub's scheduled workflows have a documented
+    # minimum interval of 5 minutes, but under load GitHub may delay
+    # execution - don't rely on this for second-precision timing.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {} # lets you trigger a refresh manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  bump-cache-buster:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Bump the ?v= query param in README.md
+        run: |
+          TIMESTAMP=$(date +%s)
+          # Matches ?v=<anything up to the closing quote> right after
+          # /api/banner and replaces it with a fresh timestamp.
+          sed -i -E "s#(/api/banner\?v=)[^\"']*#\1${TIMESTAMP}#g" README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet README.md; then
+            echo "No change needed, skipping commit."
+          else
+            git add README.md
+            git commit -m "chore: refresh banner cache-buster [skip ci]"
+            git push
+          fi
