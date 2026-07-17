@@ -1,4 +1,4 @@
-<img src="https://banner.forex911.online/api/banner" width="100%" alt="banner" />
+<!-- <img src="https://banner.forex911.online/api/banner" width="100%" alt="banner" /> -->
 
 # Forex911
  
