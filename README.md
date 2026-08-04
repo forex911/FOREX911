@@ -95,6 +95,7 @@ Building AI-powered tools, developer utilities, and modern web applications.
 | **PinDrop** | Share and discover locations with interactive maps and collaboration. | [![GitHub](https://img.shields.io/badge/GitHub-PinDrop-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/PinDrop) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://pindrop.forex911.online) |
 | **DrawingSpot** | Browser-based collaborative drawing and sketching application. | [![GitHub](https://img.shields.io/badge/GitHub-DrawingSpot-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/DrawingSpot) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://drawing-spot.vercel.app) |
 | **NeuraDepth** | AI-powered monocular depth estimation and image enhancement. | [![GitHub](https://img.shields.io/badge/GitHub-NeuraDepth-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/NeuraDepth) | — |
+| **Placify** | Full-stack placement preparation platform with aptitude tests, coding practice, interview resources, and progress tracking. | [![GitHub](https://img.shields.io/badge/GitHub-Placify-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Placify) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://placify.forex911.online) |
 
 ---
 
