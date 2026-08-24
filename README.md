@@ -79,6 +79,69 @@ Building AI-powered tools, developer utilities, and modern web applications.
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-1F3A93?style=flat-square)
 
 ---
+## 🏆 Hall of Fame
+
+<p align="center">
+  <sub>Products I've built from idea → production</sub>
+</p>
+
+<table align="center">
+<tr>
+<td align="center" width="180">
+<a href="https://placify.forex911.online">
+<img src="https://img.shields.io/badge/PLACIFY-111111?style=for-the-badge&logo=vercel&logoColor=white" /><br/><br/>
+<b>Placify</b><br/>
+<sub>Placement Platform</sub>
+</a>
+</td>
+
+<td align="center" width="180">
+<a href="https://drawing-spot.vercel.app">
+<img src="https://img.shields.io/badge/DRAWINGSPOT-111111?style=for-the-badge&logo=figma&logoColor=white" /><br/><br/>
+<b>DrawingSpot</b><br/>
+<sub>Collaborative Canvas</sub>
+</a>
+</td>
+
+<td align="center" width="180">
+<a href="https://pindrop.forex911.online">
+<img src="https://img.shields.io/badge/PINDROP-111111?style=for-the-badge&logo=googlemaps&logoColor=white" /><br/><br/>
+<b>PinDrop</b><br/>
+<sub>Location Sharing</sub>
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" width="180">
+<a href="https://github.com/forex911/NeuraDepth">
+<img src="https://img.shields.io/badge/NEURADEPTH-111111?style=for-the-badge&logo=pytorch&logoColor=white" /><br/><br/>
+<b>NeuraDepth</b><br/>
+<sub>Depth Estimation</sub>
+</a>
+</td>
+
+<td align="center" width="180">
+<a href="https://repodoc-f9.vercel.app">
+<img src="https://img.shields.io/badge/REPODOC-111111?style=for-the-badge&logo=github&logoColor=white" /><br/><br/>
+<b>RepoDoc</b><br/>
+<sub>README Generator</sub>
+</a>
+</td>
+
+<td align="center" width="180">
+<a href="https://dany.forex911.online">
+<img src="https://img.shields.io/badge/DANY-111111?style=for-the-badge&logo=youtube&logoColor=white" /><br/><br/>
+<b>Dany</b><br/>
+<sub>Media Downloader</sub>
+</a>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <i>More products → <a href="https://github.com/forex911?tab=repositories">View all repositories</a></i>
+</p>
 
 ## 🕸️ Projects
 
