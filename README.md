@@ -82,65 +82,71 @@ Building AI-powered tools, developer utilities, and modern web applications.
 ## 🏆 Hall of Fame
 
 <p align="center">
-  <sub>Products I've built from idea → production</sub>
+  <sub>Things I've built</sub>
 </p>
+
+<br>
 
 <table align="center">
 <tr>
-<td align="center" width="180">
+
+<td align="center" width="150">
 <a href="https://placify.forex911.online">
-<img src="https://img.shields.io/badge/PLACIFY-111111?style=for-the-badge&logo=vercel&logoColor=white" /><br/><br/>
-<b>Placify</b><br/>
-<sub>Placement Platform</sub>
+<img src="./placify1.png" width="100" alt="Placify"/>
+<br><br>
+<strong>Placify</strong>
 </a>
 </td>
 
-<td align="center" width="180">
-<a href="https://drawing-spot.vercel.app">
-<img src="https://img.shields.io/badge/DRAWINGSPOT-111111?style=for-the-badge&logo=figma&logoColor=white" /><br/><br/>
-<b>DrawingSpot</b><br/>
-<sub>Collaborative Canvas</sub>
+<td align="center" width="150">
+<a href="https://flow.forex911.online">
+<img src="./f9-flow.png" width="100" alt="F9 Flow"/>
+<br><br>
+<strong>F9 Flow</strong>
 </a>
 </td>
 
-<td align="center" width="180">
+<td align="center" width="150">
 <a href="https://pindrop.forex911.online">
-<img src="https://img.shields.io/badge/PINDROP-111111?style=for-the-badge&logo=googlemaps&logoColor=white" /><br/><br/>
-<b>PinDrop</b><br/>
-<sub>Location Sharing</sub>
+<img src="./pindrop.png" width="100" alt="PinDrop"/>
+<br><br>
+<strong>PinDrop</strong>
 </a>
 </td>
-</tr>
 
-<tr>
-<td align="center" width="180">
+<td align="center" width="150">
 <a href="https://github.com/forex911/NeuraDepth">
-<img src="https://img.shields.io/badge/NEURADEPTH-111111?style=for-the-badge&logo=pytorch&logoColor=white" /><br/><br/>
-<b>NeuraDepth</b><br/>
-<sub>Depth Estimation</sub>
+<img src="./neuradepth.png" width="100" alt="NeuraDepth"/>
+<br><br>
+<strong>NeuraDepth</strong>
 </a>
 </td>
 
-<td align="center" width="180">
-<a href="https://repodoc-f9.vercel.app">
-<img src="https://img.shields.io/badge/REPODOC-111111?style=for-the-badge&logo=github&logoColor=white" /><br/><br/>
-<b>RepoDoc</b><br/>
-<sub>README Generator</sub>
+<td align="center" width="150">
+<a href="https://acros.forex911.online">
+<img src="./acros.png" width="100" alt="Acros"/>
+<br><br>
+<strong>Acros</strong>
 </a>
 </td>
 
-<td align="center" width="180">
+<td align="center" width="150">
 <a href="https://dany.forex911.online">
-<img src="https://img.shields.io/badge/DANY-111111?style=for-the-badge&logo=youtube&logoColor=white" /><br/><br/>
-<b>Dany</b><br/>
-<sub>Media Downloader</sub>
+<img src="./dany.png" width="100" alt="Dany"/>
+<br><br>
+<strong>Dany</strong>
 </a>
 </td>
+
 </tr>
 </table>
 
+<br>
+
 <p align="center">
-  <i>More products → <a href="https://github.com/forex911?tab=repositories">View all repositories</a></i>
+  <a href="https://github.com/forex911?tab=repositories">
+    <sub>View all projects →</sub>
+  </a>
 </p>
 
 ## 🕸️ Projects
