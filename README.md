@@ -80,69 +80,20 @@ Building AI-powered tools, developer utilities, and modern web applications.
 
 ---
 ## 🏆 Hall of Fame
-
 <p align="center">
   <sub>Things I've built</sub>
 </p>
-
 <br>
 
-<table align="center">
-<tr>
+<div align="center">
 
-<td align="center" width="150">
-<a href="https://placify.forex911.online">
-<img src="./placify1.png" width="100" alt="Placify"/>
-<br><br>
-<strong>Placify</strong>
-</a>
-</td>
+| | | | | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| [![Placify](https://placify.forex911.online/og-image.png)](https://placify.forex911.online)<br>**[Placify](https://placify.forex911.online)** | [![F9 Flow](https://flow.forex911.online/og-image.png)](https://flow.forex911.online)<br>**[F9 Flow](https://flow.forex911.online)** | [![PinDrop](https://pindrop.forex911.online/og-image.png)](https://pindrop.forex911.online)<br>**[PinDrop](https://pindrop.forex911.online)** | [![NeuraDepth](https://raw.githubusercontent.com/forex911/NeuraDepth/main/neuradepth.png)](https://github.com/forex911/NeuraDepth)<br>**[NeuraDepth](https://github.com/forex911/NeuraDepth)** | [![Acros](https://acros.forex911.online/og-image.png)](https://acros.forex911.online)<br>**[Acros](https://acros.forex911.online)** | [![Dany](https://dany.forex911.online/og-image.png)](https://dany.forex911.online)<br>**[Dany](https://dany.forex911.online)** |
 
-<td align="center" width="150">
-<a href="https://flow.forex911.online">
-<img src="./f9-flow.png" width="100" alt="F9 Flow"/>
-<br><br>
-<strong>F9 Flow</strong>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://pindrop.forex911.online">
-<img src="./pindrop.png" width="100" alt="PinDrop"/>
-<br><br>
-<strong>PinDrop</strong>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://github.com/forex911/NeuraDepth">
-<img src="./neuradepth.png" width="100" alt="NeuraDepth"/>
-<br><br>
-<strong>NeuraDepth</strong>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://acros.forex911.online">
-<img src="./acros.png" width="100" alt="Acros"/>
-<br><br>
-<strong>Acros</strong>
-</a>
-</td>
-
-<td align="center" width="150">
-<a href="https://dany.forex911.online">
-<img src="./dany.png" width="100" alt="Dany"/>
-<br><br>
-<strong>Dany</strong>
-</a>
-</td>
-
-</tr>
-</table>
+</div>
 
 <br>
-
 <p align="center">
   <a href="https://github.com/forex911?tab=repositories">
     <sub>View all projects →</sub>
