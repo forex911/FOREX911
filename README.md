@@ -1,10 +1,8 @@
- <img src="https://banner.forex911.online/api/banner" width="100%" alt="banner" /> 
+<img src="https://banner.forex911.online/api/banner" width="100%" alt="banner" /> 
 
 # Forex911
  
 **Developer · AI Explorer · Builder**
-
-</div>
 
 Building AI-powered tools, developer utilities, and modern web applications.
 
@@ -79,26 +77,71 @@ Building AI-powered tools, developer utilities, and modern web applications.
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-1F3A93?style=flat-square)
 
 ---
+
 ## 🏆 Hall of Fame
-<p align="center">
-  <sub>Things I've built</sub>
-</p>
+
+<p align="center"><sub>Things I've built</sub></p>
+
 <br>
 
 <div align="center">
-
-| | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| [![Placify](https://placify.forex911.online/og-image.png)](https://placify.forex911.online)<br>**[Placify](https://placify.forex911.online)** | [![F9 Flow](https://flow.forex911.online/og-image.png)](https://flow.forex911.online)<br>**[F9 Flow](https://flow.forex911.online)** | [![PinDrop](https://pindrop.forex911.online/og-image.png)](https://pindrop.forex911.online)<br>**[PinDrop](https://pindrop.forex911.online)** | [![NeuraDepth](https://raw.githubusercontent.com/forex911/NeuraDepth/main/neuradepth.png)](https://github.com/forex911/NeuraDepth)<br>**[NeuraDepth](https://github.com/forex911/NeuraDepth)** | [![Acros](https://acros.forex911.online/og-image.png)](https://acros.forex911.online)<br>**[Acros](https://acros.forex911.online)** | [![Dany](https://dany.forex911.online/og-image.png)](https://dany.forex911.online)<br>**[Dany](https://dany.forex911.online)** |
-
+  <table>
+    <tr>
+      <td align="center" width="160">
+        <a href="https://placify.forex911.online">
+          <img src="./placify1.png" width="120" height="120" style="object-fit:cover; border-radius:8px;" alt="Placify" />
+          <br /><br />
+          <b>Placify</b>
+        </a>
+      </td>
+      <td align="center" width="160">
+        <a href="https://flow.forex911.online">
+          <img src="./f9-flow.png" width="120" height="120" style="object-fit:cover; border-radius:8px;" alt="F9 Flow" />
+          <br /><br />
+          <b>F9 Flow</b>
+        </a>
+      </td>
+      <td align="center" width="160">
+        <a href="https://pindrop.forex911.online">
+          <img src="./pindrop.png" width="120" height="120" style="object-fit:cover; border-radius:8px;" alt="PinDrop" />
+          <br /><br />
+          <b>PinDrop</b>
+        </a>
+      </td>
+      <td align="center" width="160">
+        <a href="https://github.com/forex911/NeuraDepth">
+          <img src="./neuradepth.png" width="120" height="120" style="object-fit:cover; border-radius:8px;" alt="NeuraDepth" />
+          <br /><br />
+          <b>NeuraDepth</b>
+        </a>
+      </td>
+      <td align="center" width="160">
+        <a href="https://acros.forex911.online">
+          <img src="./acros.png" width="120" height="120" style="object-fit:cover; border-radius:8px;" alt="Acros" />
+          <br /><br />
+          <b>Acros</b>
+        </a>
+      </td>
+      <td align="center" width="160">
+        <a href="https://dany.forex911.online">
+          <img src="./dany.png" width="120" height="120" style="object-fit:cover; border-radius:8px;" alt="Dany" />
+          <br /><br />
+          <b>Dany</b>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br>
+
 <p align="center">
   <a href="https://github.com/forex911?tab=repositories">
     <sub>View all projects →</sub>
   </a>
 </p>
+
+---
 
 ## 🕸️ Projects
 
