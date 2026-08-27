@@ -160,6 +160,7 @@ Building AI-powered tools, developer utilities, and modern web applications.
 | **NeuraDepth**            | Offline AI platform for depth maps, point clouds & 3D reconstruction. | [![GitHub](https://img.shields.io/badge/GitHub-NeuraDepth-8B0000?logo=github\&logoColor=white\&style=flat-square)](https://github.com/forex911/NeuraDepth)                        | —                                                                                                                                                  |
 | **Placify**               | Student platform for placement tracking and preparation.              | [![GitHub](https://img.shields.io/badge/GitHub-Placify-8B0000?logo=github\&logoColor=white\&style=flat-square)](https://github.com/forex911/Placify)                              | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel\&logoColor=white\&style=flat-square)](https://placify.forex911.online)          |
 
+| **ACROS**               | Malware analysis platform with sandboxing, AI threat classification, MITRE ATT&CK mapping, and real-time telemetry.              | [![GitHub](https://img.shields.io/badge/GitHub-Placify-8B0000?logo=github\&logoColor=white\&style=flat-square)](https://github.com/forex911/Acros)                              | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel\&logoColor=white\&style=flat-square)](https://acros.forex911.online)          |
 
 ---
 
