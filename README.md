@@ -94,13 +94,13 @@ Building AI-powered tools, developer utilities, and modern web applications.
           <b>Placify</b>
         </a>
       </td>
-      <td align="center" width="160">
+      <!-- <td align="center" width="160">
         <a href="https://flow.forex911.online">
           <img src="./f9-flow.png" width="120" height="120" style="object-fit:cover; border-radius:8px;" alt="F9 Flow" />
           <br /><br />
           <b>F9 Flow</b>
         </a>
-      </td>
+      </td> -->
       <td align="center" width="160">
         <a href="https://pindrop.forex911.online">
           <img src="./pindrop.png" width="120" height="120" style="object-fit:cover; border-radius:8px;" alt="PinDrop" />
