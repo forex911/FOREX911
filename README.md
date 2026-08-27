@@ -119,7 +119,7 @@ Building AI-powered tools, developer utilities, and modern web applications.
         <a href="https://acros.forex911.online">
           <img src="./acros.png" width="120" height="120" style="object-fit:cover; border-radius:8px;" alt="Acros" />
           <br /><br />
-          <b>Acros</b>
+          <b>ACROS</b>
         </a>
       </td>
       <td align="center" width="160">
