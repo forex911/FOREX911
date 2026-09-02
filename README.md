@@ -2,9 +2,7 @@
 
 # Forex911
  
-**Developer · AI Explorer · Builder**
-
-Building AI-powered tools, developer utilities, and modern web applications.
+Your friendly neighborhood developer  — moving between AI experiments, side projects, and the occasional late-night bug fix. No superpowers, just Python, React, and a genuine curiosity for solving problems. Hand me one, and I'll stick with it until it's done.
 
 ---
 
