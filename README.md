@@ -212,15 +212,11 @@ Your friendly neighborhood developer  — moving between AI experiments, side pr
 ## 🕸️ Contact
 
 - **Portfolio:** [![Portfolio](https://img.shields.io/badge/forex911.online-000000?logo=google-chrome&logoColor=white&style=flat-square)](https://forex911.online)
-
 - **GitHub:** [![GitHub](https://img.shields.io/badge/@forex911-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911)
-
+- **PyPI:** [![PyPI](https://img.shields.io/badge/FOREX911-3775A9?logo=pypi&logoColor=white&style=flat-square)](https://pypi.org/user/FOREX911/)
 - **Docker Hub:** [![Docker Hub](https://img.shields.io/badge/forex911-2496ED?logo=docker&logoColor=white&style=flat-square)](https://hub.docker.com/u/forex911)
-
 - **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/Sivasubramaniyan_C-0A66C2?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sivasubramaniyan-c-325397371/)
-
 - **Instagram:** [![Instagram](https://img.shields.io/badge/@Its_siva.__-E4405F?logo=instagram&logoColor=white&style=flat-square)](https://instagram.com/its_siva._)
-
 - **Email:** [![Email](https://img.shields.io/badge/forex911x@gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:forex911x@gmail.com)
 
 <br/>
