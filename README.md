@@ -4,7 +4,7 @@
 
 **Developer · AI Explorer · Builder**
 
-Building AI-powered tools, developer utilities, and modern web applications.
+Your friendly neighborhood developer  — moving between AI experiments, side projects, and the occasional late-night bug fix. No superpowers, just Python, React, and a genuine curiosity for solving problems. Hand me one, and I'll stick with it until it's done.
 
 ---
 
@@ -188,8 +188,7 @@ Building AI-powered tools, developer utilities, and modern web applications.
 | Project | Description | Repository | Live Demo |
 | --- | --- | --- | --- |
 | **Paste2Project** | CLI tool that converts a pasted folder tree into real files and directories instantly. | [![GitHub](https://img.shields.io/badge/GitHub-Paste2Project-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Paste2Project) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://p2p.forex911.online/) |
-| **Mooper** | Python CLI media converter and transcoder built with PyAV. | [![GitHub](https://img.shields.io/badge/GitHub-Mooper-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Mooper) | — |
-| **Leet** | Java DSA and LeetCode solutions repository. | [![GitHub](https://img.shields.io/badge/GitHub-Leet-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Leet) | — |
+| **Mooper** | Python CLI media converter and transcoder built with PyAV. | [![GitHub](https://img.shields.io/badge/GitHub-Mooper-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Mooper) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)]([https://p2p.forex911.online/](https://pypi.org/project/mooper/))  |
 
 ### 🧠 Experimental
 
