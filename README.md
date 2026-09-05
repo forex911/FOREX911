@@ -8,7 +8,7 @@ Your friendly neighborhood developer  — moving between AI experiments, side pr
 
 ---
 
-## 🕸️ Stack
+## 🌻 Stack
 
 **Languages**
 
@@ -145,60 +145,60 @@ Your friendly neighborhood developer  — moving between AI experiments, side pr
 
 ---
 
-## 🕸️ Projects
+## 🐝 Projects
 
-### 🤖 AI / Machine Learning
+###  AI / Machine Learning
 
 | Project | Description | Repository | Demo |
 | --- | --- | --- | --- |
-| **ACROS** | AI-assisted malware analysis with sandbox orchestration and threat intelligence. | [![GitHub](https://img.shields.io/badge/GitHub-ACROS-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/ACROS) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://acros.forex911.online) |
-| **Character Recognition** | Handwritten character recognition using deep learning and FastAPI. | [![GitHub](https://img.shields.io/badge/GitHub-Character__Recognition-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Character_Recognition) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://character-recognition.vercel.app/) |
-| **NeuraDepth** | Computer vision depth estimation and 3D reconstruction. | [![GitHub](https://img.shields.io/badge/GitHub-NeuraDepth-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/NeuraDepth) | [![Docker](https://img.shields.io/badge/Docker-Hub-2496ED?logo=docker&logoColor=white&style=flat-square)](https://hub.docker.com/r/forex911/neuradepth) |
-| **Traitor Tracker** | AI-powered image-origin detection and suspicious-activity web app. | [![GitHub](https://img.shields.io/badge/GitHub-Traitor__Tracker-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Traitor_Tracker) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://traitor-tracker.vercel.app) |
-| **Gold Price Prediction** | Machine learning model for gold price forecasting. | [![GitHub](https://img.shields.io/badge/GitHub-Gold--Price--Prediction-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Gold-Price-Prediction) | [![Colab](https://img.shields.io/badge/Colab-Open-F9AB00?logo=googlecolab&logoColor=white&style=flat-square)](https://colab.research.google.com/drive/1Rq1eOkoY8wz83thScrMBr1yyk8PZXSiu?usp=sharing) |
-| **Learning Behavior Analysis** | ML-driven analysis of online learning behavior patterns. | [![GitHub](https://img.shields.io/badge/GitHub-online--learning--behavior--analysis-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/online-learning-behavior-analysis) | [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white&style=flat-square)](https://github.com/forex911/online-learning-behavior-analysis/blob/main/notebooks) |
-| **SuperX** | AI image enhancement and upscaling using PyTorch, ONNX and Flask. | [![GitHub](https://img.shields.io/badge/GitHub-SuperX-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/SuperX) | ![Localhost](https://img.shields.io/badge/Localhost-5000-555555?logo=flask&logoColor=white&style=flat-square) |
-| **Diabetes Type Classifier** | ML classification model for diabetes type prediction. | [![GitHub](https://img.shields.io/badge/GitHub-Diabetes--Type--Classifier-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Diabetes-Type-Classifier) | ![Localhost](https://img.shields.io/badge/Localhost-8080-555555?logo=python&logoColor=white&style=flat-square) |
+| **ACROS** | AI-assisted malware analysis with sandbox orchestration and threat intelligence. | [![GitHub](https://img.shields.io/badge/GitHub-ACROS-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/ACROS) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://acros.forex911.online) |
+| **Character Recognition** | Handwritten character recognition using deep learning and FastAPI. | [![GitHub](https://img.shields.io/badge/GitHub-Character__Recognition-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Character_Recognition) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://character-recognition.vercel.app/) |
+| **NeuraDepth** | Computer vision depth estimation and 3D reconstruction. | [![GitHub](https://img.shields.io/badge/GitHub-NeuraDepth-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/NeuraDepth) | [![Docker](https://img.shields.io/badge/Docker-Hub-2496ED?logo=docker&logoColor=white&style=flat-square)](https://hub.docker.com/r/forex911/neuradepth) |
+| **Traitor Tracker** | AI-powered image-origin detection and suspicious-activity web app. | [![GitHub](https://img.shields.io/badge/GitHub-Traitor__Tracker-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Traitor_Tracker) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://traitor-tracker.vercel.app) |
+| **Gold Price Prediction** | Machine learning model for gold price forecasting. | [![GitHub](https://img.shields.io/badge/GitHub-Gold--Price--Prediction-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Gold-Price-Prediction) | [![Colab](https://img.shields.io/badge/Colab-Open-F9AB00?logo=googlecolab&logoColor=white&style=flat-square)](https://colab.research.google.com/drive/1Rq1eOkoY8wz83thScrMBr1yyk8PZXSiu?usp=sharing) |
+| **Learning Behavior Analysis** | ML-driven analysis of online learning behavior patterns. | [![GitHub](https://img.shields.io/badge/GitHub-online--learning--behavior--analysis-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/online-learning-behavior-analysis) | [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white&style=flat-square)](https://github.com/forex911/online-learning-behavior-analysis/blob/main/notebooks) |
+| **SuperX** | AI image enhancement and upscaling using PyTorch, ONNX and Flask. | [![GitHub](https://img.shields.io/badge/GitHub-SuperX-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/SuperX) | ![Localhost](https://img.shields.io/badge/Localhost-5000-555555?logo=flask&logoColor=white&style=flat-square) |
+| **Diabetes Type Classifier** | ML classification model for diabetes type prediction. | [![GitHub](https://img.shields.io/badge/GitHub-Diabetes--Type--Classifier-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Diabetes-Type-Classifier) | ![Localhost](https://img.shields.io/badge/Localhost-8080-555555?logo=python&logoColor=white&style=flat-square) |
 
-### 🧩 Browser Extensions
-
-| Project | Description | Repository | Live Demo |
-| --- | --- | --- | --- |
-| **F9 Flow** | Chrome/Firefox extension that turns long AI conversations into a clean navigable timeline. | [![GitHub](https://img.shields.io/badge/GitHub-F9--Flow-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/F9-Flow) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://flow.forex911.online/) |
-| **PinDrop** | Chrome extension for instant Pinterest-to-clipboard workflow with Figma and Photoshop. | [![GitHub](https://img.shields.io/badge/GitHub-Pindrop-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Pindrop) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://pindrop.forex911.online/) |
-
-### 🖥️ Desktop Applications
+###  Browser Extensions
 
 | Project | Description | Repository | Live Demo |
 | --- | --- | --- | --- |
-| **Dany Downloader** | Windows media downloader built with Electron, Python, yt-dlp and FFmpeg supporting 4K/8K. | [![GitHub](https://img.shields.io/badge/GitHub-dany--desktop-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/dany-desktop) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://dany.forex911.online/) |
+| **F9 Flow** | Chrome/Firefox extension that turns long AI conversations into a clean navigable timeline. | [![GitHub](https://img.shields.io/badge/GitHub-F9--Flow-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/F9-Flow) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://flow.forex911.online/) |
+| **PinDrop** | Chrome extension for instant Pinterest-to-clipboard workflow with Figma and Photoshop. | [![GitHub](https://img.shields.io/badge/GitHub-Pindrop-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Pindrop) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://pindrop.forex911.online/) |
 
-### 🌐 Full-Stack Web Applications
-
-| Project | Description | Repository | Live Demo |
-| --- | --- | --- | --- |
-| **DrawingSpot** | Art commission marketplace built with Spring Boot, React and PostgreSQL. | [![GitHub](https://img.shields.io/badge/GitHub-DrawingSpot-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/DrawingSpot) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://drawingspot.vercel.app/) |
-| **Placify** | Placement prep platform with aptitude tests, coding practice and progress tracking. | [![GitHub](https://img.shields.io/badge/GitHub-Placify-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Placify) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://placify.forex911.online) |
-| **F9 Gallery** | React media gallery with masonry layouts and lazy loading for large collections. | [![GitHub](https://img.shields.io/badge/GitHub-gallery-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/gallery) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://f9-gallery.vercel.app/) |
-| **AI Codebase Analyzer** | Scans repos to detect duplication, analyze complexity and generate refactoring suggestions. | [![GitHub](https://img.shields.io/badge/GitHub-repodoc-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/repodoc) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://repodoc-f9.vercel.app/) |
-| **Preset Generator** | AI-powered Lightroom preset generator from natural language prompts. | [![GitHub](https://img.shields.io/badge/GitHub-PRESET--GENERATER-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/PRESET-GENERATER) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://preset-generater.vercel.app) |
-
-### ⚡ CLI / Developer Tools
+###  Desktop Applications
 
 | Project | Description | Repository | Live Demo |
 | --- | --- | --- | --- |
-| **Paste2Project** | CLI tool that converts a pasted folder tree into real files and directories instantly. | [![GitHub](https://img.shields.io/badge/GitHub-Paste2Project-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Paste2Project) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)](https://p2p.forex911.online/) |
-| **Mooper** | Python CLI media converter and transcoder built with PyAV. | [![GitHub](https://img.shields.io/badge/GitHub-Mooper-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Mooper) | [![Live](https://img.shields.io/badge/Live-Demo-1F3A93?logo=vercel&logoColor=white&style=flat-square)]((https://pypi.org/project/mooper/))  |
+| **Dany Downloader** | Windows media downloader built with Electron, Python, yt-dlp and FFmpeg supporting 4K/8K. | [![GitHub](https://img.shields.io/badge/GitHub-dany--desktop-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/dany-desktop) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://dany.forex911.online/) |
 
-### 🧠 Experimental
+###  Full-Stack Web Applications
+
+| Project | Description | Repository | Live Demo |
+| --- | --- | --- | --- |
+| **DrawingSpot** | Art commission marketplace built with Spring Boot, React and PostgreSQL. | [![GitHub](https://img.shields.io/badge/GitHub-DrawingSpot-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/DrawingSpot) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://drawingspot.vercel.app/) |
+| **Placify** | Placement prep platform with aptitude tests, coding practice and progress tracking. | [![GitHub](https://img.shields.io/badge/GitHub-Placify-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Placify) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://placify.forex911.online) |
+| **F9 Gallery** | React media gallery with masonry layouts and lazy loading for large collections. | [![GitHub](https://img.shields.io/badge/GitHub-gallery-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/gallery) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://f9-gallery.vercel.app/) |
+| **AI Codebase Analyzer** | Scans repos to detect duplication, analyze complexity and generate refactoring suggestions. | [![GitHub](https://img.shields.io/badge/GitHub-repodoc-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/repodoc) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://repodoc-f9.vercel.app/) |
+| **Preset Generator** | AI-powered Lightroom preset generator from natural language prompts. | [![GitHub](https://img.shields.io/badge/GitHub-PRESET--GENERATER-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/PRESET-GENERATER) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://preset-generater.vercel.app) |
+
+###  CLI / Developer Tools
+
+| Project | Description | Repository | Live Demo |
+| --- | --- | --- | --- |
+| **Paste2Project** | CLI tool that converts a pasted folder tree into real files and directories instantly. | [![GitHub](https://img.shields.io/badge/GitHub-Paste2Project-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Paste2Project) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)](https://p2p.forex911.online/) |
+| **Mooper** | Python CLI media converter and transcoder built with PyAV. | [![GitHub](https://img.shields.io/badge/GitHub-Mooper-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/Mooper) | [![Live](https://img.shields.io/badge/Live-Demo-2F6B3C?logo=vercel&logoColor=white&style=flat-square)]((https://pypi.org/project/mooper/))  |
+
+###  Experimental
 
 | Project | Description | Repository |
 | --- | --- | --- |
-| **SAGE** | Experimental Python project. | [![GitHub](https://img.shields.io/badge/GitHub-SAGE-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/SAGE) |
+| **SAGE** | Experimental Python project. | [![GitHub](https://img.shields.io/badge/GitHub-SAGE-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911/SAGE) |
 
 ---
 
-## 🕸️ Currently Exploring
+## Currently Exploring
 
 - Artificial Intelligence
 - Agentic AI
@@ -209,10 +209,10 @@ Your friendly neighborhood developer  — moving between AI experiments, side pr
 
 ---
 
-## 🕸️ Contact
+## Contact
 
 - **Portfolio:** [![Portfolio](https://img.shields.io/badge/forex911.online-000000?logo=google-chrome&logoColor=white&style=flat-square)](https://forex911.online)
-- **GitHub:** [![GitHub](https://img.shields.io/badge/@forex911-8B0000?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911)
+- **GitHub:** [![GitHub](https://img.shields.io/badge/@forex911-D97706?logo=github&logoColor=white&style=flat-square)](https://github.com/forex911)
 - **PyPI:** [![PyPI](https://img.shields.io/badge/FOREX911-3775A9?logo=pypi&logoColor=white&style=flat-square)](https://pypi.org/user/FOREX911/)
 - **Docker Hub:** [![Docker Hub](https://img.shields.io/badge/forex911-2496ED?logo=docker&logoColor=white&style=flat-square)](https://hub.docker.com/u/forex911)
 - **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/Sivasubramaniyan_C-0A66C2?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/sivasubramaniyan-c-325397371/)
@@ -223,7 +223,7 @@ Your friendly neighborhood developer  — moving between AI experiments, side pr
 
 <div align="center">
 
-🕷️ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 🕸️
+🌻 ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯  🐝
 
 **Thanks for stopping by!**
 
